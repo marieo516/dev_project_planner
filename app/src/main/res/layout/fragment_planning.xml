@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanningFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top bar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_back"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ui_back" />
+
+            <TextView
+                android:id="@+id/project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="Campus Marketplace" />
+        </RelativeLayout>
+
+        <!-- Technologies -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_technologies"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/tech_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <com.google.android.material.chip.Chip
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kotlin" />
+
+                    <com.google.android.material.chip.Chip
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android Studio" />
+
+                    <com.google.android.material.chip.Chip
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SQLite" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_add_tech"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_add" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Libraries -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_libraries"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/library_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <com.google.android.material.chip.Chip
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Room" />
+
+                    <com.google.android.material.chip.Chip
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Material Components" />
+
+                    <com.google.android.material.chip.Chip
+                        style="@style/Widget.Material3.Chip.Assist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coil" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_add_library"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_add" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Brainstorming -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_brainstorming"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/input_brainstorm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:minLines="4" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Future features -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_future_features"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                
+                <LinearLayout
+                    android:id="@+id/feature_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Push notifications" />
+
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.Material3.Button.OutlinedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ui_task_group" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Cloud sync" />
+
+                        <com.google.android.material.button.MaterialButton
+                            style="@style/Widget.Material3.Button.OutlinedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ui_task_group" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_add_feature"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_add_feature" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/ui_moving_one_to_tasks_creates_a_task_group_and_removes_it_from_this_list" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

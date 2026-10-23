@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Planificateur de projets</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="appearance">APPARENCE</string>
+    <string name="theme">Thème</string>
+    <string name="light">Clair</string>
+    <string name="dark">Sombre</string>
+    <string name="system">Système</string>
+    <string name="cloud_backup">SAUVEGARDE EN LIGNE</string>
+    <string name="signed_out">Déconnecté</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="back_up">Sauvegarder</string>
+    <string name="restore">Restaurer</string>
+    <string name="backup_note">Vos projets restent sur ce téléphone. Rien n’est envoyé tant que vous n’appuyez pas sur Sauvegarder.</string>
+    <string name="about">À PROPOS</string>
+    <string name="about_tab">À propos</string>
+    <string name="about_project_name">Planificateur de projets pour développeurs</string>
+    <string name="about_image_description">Illustration de planification de projet</string>
+    <string name="version">Version</string>
+    <string name="language">LANGUE</string>
+    <string name="manage_labels">GÉRER LES ÉTIQUETTES</string>
+    <string name="no_labels">Aucune étiquette pour le moment.</string>
+    <string name="add_label">Ajouter une étiquette</string>
+    <string name="export_complete">Exportation terminée : %1$s</string>
+    <string name="export_failed">Impossible d’exporter ce projet.</string>
+    <string name="projects">Projets</string>
+    <string name="overview">Aperçu</string>
+    <string name="planning">Planification</string>
+    <string name="tasks">Tâches</string>
+</resources>

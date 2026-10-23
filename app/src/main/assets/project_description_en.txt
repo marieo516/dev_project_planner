@@ -1,0 +1,3 @@
+Dev Project Planner helps developers organize a project from the first idea through planning and delivery. Keep project details, dates, sprints, technologies, libraries, ideas, and tasks together in one place.
+
+App creator: Marie-Pier Ouellet

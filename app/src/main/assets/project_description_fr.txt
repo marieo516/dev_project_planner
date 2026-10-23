@@ -1,0 +1,3 @@
+Planificateur de projets pour développeurs vous aide à organiser un projet, de la première idée jusqu’à la planification et à la réalisation. Rassemblez au même endroit les détails du projet, les dates, les sprints, les technologies, les bibliothèques, les idées et les tâches.
+
+Créatrice de l’application : Marie-Pier Ouellet

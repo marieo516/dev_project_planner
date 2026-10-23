@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">dev_project_planner</string>
+    <string name="settings_title">Settings</string>
+    <string name="appearance">APPEARANCE</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system">System</string>
+    <string name="cloud_backup">CLOUD BACKUP</string>
+    <string name="signed_out">Signed out</string>
+    <string name="sign_in">Sign in</string>
+    <string name="back_up">Back up</string>
+    <string name="restore">Restore</string>
+    <string name="backup_note">Your projects stay on this phone. Nothing is uploaded unless you tap Back up.</string>
+    <string name="about">ABOUT</string>
+    <string name="about_tab">About</string>
+    <string name="about_project_name">Dev Project Planner</string>
+    <string name="about_image_description">Project planning illustration</string>
+    <string name="version">Version</string>
+    <string name="language">LANGUAGE</string>
+    <string name="manage_labels">MANAGE LABELS</string>
+    <string name="no_labels">No labels yet.</string>
+    <string name="add_label">Add label</string>
+    <string name="export_complete">Export complete: %1$s</string>
+    <string name="export_failed">Could not export this project.</string>
+    <string name="projects">Projects</string>
+    <string name="overview">Overview</string>
+    <string name="planning">Planning</string>
+    <string name="tasks">Tasks</string>
+</resources>

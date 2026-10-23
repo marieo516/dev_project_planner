@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="8dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ui_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_label_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/ui_color" />
+
+    <LinearLayout
+        android:id="@+id/color_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/circle_color"
+            app:backgroundTint="#2563EB" />
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/circle_color"
+            app:backgroundTint="#EA580C" />
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/circle_color"
+            app:backgroundTint="#7C3AED" />
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/circle_color"
+            app:backgroundTint="#15803D" />
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/circle_color"
+            app:backgroundTint="#BE185D" />
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/circle_color"
+            app:backgroundTint="#CA8A04" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/ui_it_joins_your_label_list_select_it_to_use_it_in_this_project" />
+</LinearLayout>
