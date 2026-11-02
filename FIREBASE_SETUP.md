@@ -1,5 +1,9 @@
 # Firebase setup
 
+The checked-in `app/google-services.json` uses a placeholder API key. To enable
+Firebase, replace it with the `google-services.json` downloaded from your own
+Firebase project.
+
 1. In Firebase Console, open **Build → Authentication → Sign-in method** and
    enable **Email/Password**.
 2. Open **Build → Firestore Database** and create a database for the project used
