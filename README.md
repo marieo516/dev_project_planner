@@ -12,6 +12,10 @@ Dev Project Planner is an Android app for organizing software projects from the 
 | --- | --- |
 | ![Sprint planning](demo_images/Screenshot%20From%202026-11-02%2008-00-14.png) | ![Project tasks](demo_images/Screenshot%20From%202026-11-02%2008-00-16.png) |
 
+| Settings | Settings (dark theme) |
+| --- | --- |
+| ![Settings](demo_images/Screenshot%20From%202026-11-02%2007-58-06.png) | ![Settings in dark theme](demo_images/Screenshot%20From%202026-11-02%2007-58-17.png) |
+
 ## Why
 
 I enjoy staying organized, but I hadn’t found a planning app that fit the way I manage software projects. I already wanted to build one, so I used the idea for a school project. The assignment required Firebase, which I added as an optional cloud backup. The app still works fully locally for people who prefer to keep their project data on their device.
