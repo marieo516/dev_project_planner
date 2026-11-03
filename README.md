@@ -8,7 +8,7 @@ Dev Project Planner is an Android app for organizing software projects from the 
 | --- | --- |
 | ![Projects list](demo_images/Screenshot%20From%202026-11-02%2007-57-24.png) | ![Project overview](demo_images/Screenshot%20From%202026-11-02%2007-58-28.png) |
 
-| Sprint planning | Tasks |
+| Planning | Tasks |
 | --- | --- |
 | ![Sprint planning](demo_images/Screenshot%20From%202026-11-02%2008-00-14.png) | ![Project tasks](demo_images/Screenshot%20From%202026-11-02%2008-00-16.png) |
 
